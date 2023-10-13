@@ -1,0 +1,18 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.card4 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: orange;
+    background: rgb(251,183,21);
+    background: linear-gradient(128deg, rgba(251,183,21,1) 0%, rgba(251,141,23,1) 17%, rgba(251,107,28,1) 38%, rgba(251,64,50,1) 68%, rgba(252,33,103,1) 100%);
+    width: 600px;
+    height: 400px;
+    border-radius: 20px;
+    margin-top: 40px; 
+}
