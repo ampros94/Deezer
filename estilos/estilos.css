@@ -12,6 +12,20 @@ footer {
 a {
   text-decoration: none;
 }
+.textoOferta{
+  color: #a2a2ad;
+  font-family: "Roboto","Arial",sans-serif;
+  text-align: center;
+  max-width:600px;
+  font-size: 12px;
+  line-height: 25px;
+}
+.avisoOferta{
+  display: flex;
+  justify-content: center;
+  padding: 90px 0;
+  
+}
 .store {
   height: 45px;
   padding-bottom: 30px;
@@ -85,6 +99,9 @@ a {
     color: #D1D1D7;
 }
 @media (width <= 576px) {
+  .avisoOferta{
+    padding: 50px 16px;
+  }
   footer{
     padding: 64px 25px;
   }
