@@ -335,4 +335,139 @@ article {
 
  .activar:hover{
     background: #2c2b2b;
- }
+ }body{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+footer {
+  font-family: "Roboto","Arial",sans-serif;
+  background-color: #121216;
+  padding: 64px 90px;
+  border-top: 1px solid #32323d;
+}
+a {
+  text-decoration: none;
+}
+.textoOferta{
+  color: #a2a2ad;
+  font-family: "Roboto","Arial",sans-serif;
+  text-align: center;
+  max-width:600px;
+  font-size: 12px;
+  line-height: 25px;
+}
+.avisoOferta{
+  display: flex;
+  justify-content: center;
+  padding: 90px 0;
+  
+}
+.store {
+  height: 45px;
+  padding-bottom: 30px;
+}
+.footerDescargas {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+
+.footerLinks {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  font-weight: 500;
+}
+.columnLinks {
+  line-height: 28px;
+  width: 100%;
+  padding-left: 0px;
+  gap: 25px;
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  padding-right: 25px;
+  max-width: 245px;
+}
+
+.footerLink {
+  font-size: 15px;
+  width: 100%;
+  color: #fff;
+}
+.footerTitle{
+  margin-bottom: 14px;
+  color: #a2a2ad;
+  font-weight: 700;
+}
+.social {
+  width: 20px;
+}
+.footerLogo a img {
+  width: 181px;
+  height: 40px;
+}
+.footerFinal {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 80px;
+  margin-bottom: 25px;
+}
+.linkSocial {
+  display: flex;
+  gap: 16px;
+}
+
+.copyrightLanguage {
+  display: flex;
+  gap: 5px;
+}
+.idioma{
+    background-color: #121216;
+    color: #ffffff;
+    border: none;
+    font-size: 15px;
+    padding-bottom: 3px;
+}
+.copyright{
+    color: #D1D1D7;
+}
+@media (width <= 576px) {
+  .avisoOferta{
+    padding: 50px 16px;
+  }
+  footer{
+    padding: 64px 25px;
+  }
+  .footerLinks{
+    flex-direction: column;
+    gap: 50px;
+    
+  }
+  .columnLinks{
+    padding: 0px;
+    max-width: none;
+  }
+  .footerFinal{
+    flex-direction: column;
+    gap: 20px;
+  }
+  .footerLogo{
+    order: 0;
+  }
+  .footerLogo a img {
+    width: 136px;
+    height: 30px;
+  }
+  .linkSocial{
+    order: 1;
+  }
+  .copyrightLanguage{
+    order: 2;
+  }
+
+
+}
