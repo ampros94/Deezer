@@ -737,6 +737,7 @@ article {
   justify-content: space-around;
   align-items: center;
   padding-left: 50px;
+  margin-top: 50px;
 }
 .contenedor8info h2 {
   color: #fff;
@@ -810,6 +811,7 @@ footer {
   background-color: #121216;
   padding: 64px 90px;
   border-top: 1px solid #32323d;
+  width: 100%;
 }
 a {
   text-decoration: none;
@@ -829,6 +831,7 @@ a {
 }
 .store {
   height: 45px;
+  box-sizing: content-box;
   padding-bottom: 30px;
 }
 .footerDescargas {
@@ -854,6 +857,7 @@ a {
   list-style: none;
   padding-right: 25px;
   max-width: 245px;
+  text-align: left;
 }
 
 .footerLink {
